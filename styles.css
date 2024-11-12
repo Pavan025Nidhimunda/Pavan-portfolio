@@ -30,7 +30,33 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     scroll-behavior: smooth;
 
 }
+/* Navbar */
+.navbar {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
 
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style for active link */
+.navbar ul li a.active {
+    color: #4caf50;
+    border-bottom: 2px solid #4caf50;
+}
 
 
 /* Header */
